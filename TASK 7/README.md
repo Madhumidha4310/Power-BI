@@ -42,81 +42,91 @@ By analyzing student demographics and examination scores, institutions can:
 
 The following new features are created:
 
-Total Score
-total_score = math_score + reading_score + writing_score
+### Total Score
+`total_score = math_score + reading_score + writing_score`
 
 
 Maximum possible score = 300
 
-Average Score
-average_score = total_score / 3
+### Average Score
+`average_score = total_score / 3`
 
-Percentage
-percentage = (total_score / 300) * 100
+### Percentage
+`percentage = (total_score / 300) * 100`
 
-Pass/Fail Status
+### Pass/Fail Status
 
 Example Rule:
 
-Pass = Average Score >= 40
-Fail = Average Score < 40
+`Pass = Average Score >= 40
+Fail = Average Score < 40`
 
-Performance Category
-Average Score	Category≥ 80	High
-50 - 79	Average
-< 50	Low
-Data Cleaning Tasks
-Categorical Data Cleaning
+### Performance Category
 
-Columns:
+| Average Score	| Category |
+|---------------|----------|
+| ≥ 80	| High |
+| 50 - 79	| Average |
+| < 50	| Low |
 
-gender
-race/ethnicity
-parental level of education
-lunch
-test preparation course
+---
 
-Activities:
+## Data Cleaning Tasks
 
-Remove extra spaces.
-Convert text to consistent format.
-Correct inconsistent category labels.
-Standardize categorical values.
-Score Validation
+### Categorical Data Cleaning
 
-Columns:
+#### Columns:
 
-math score
-reading score
-writing score
+- gender
+- race/ethnicity
+- parental level of education
+- lunch
+- test preparation course
 
-Validation Checks:
+#### Activities:
 
-Missing values
-Incorrect data types
-Scores below 0
-Scores above 100
+- Remove extra spaces.
+- Convert text to consistent format.
+- Correct inconsistent category labels.
+- Standardize categorical values.
+### Score Validation
+
+#### Columns:
+
+- math score
+- reading score
+- writing score
+
+#### Validation Checks:
+
+- Missing values
+- Incorrect data types
+- Scores below 0
+- Scores above 100
 
 Only valid scores within the range 0–100 are retained.
 
-Statistical Analysis
+### Statistical Analysis
 
-Performed for:
+#### Performed for:
 
-Mathematics Score
-Reading Score
-Writing Score
+- Mathematics Score
+- Reading Score
+- Writing Score
 
-Metrics Calculated:
+#### Metrics Calculated:
 
-Mean
-Median
-Standard Deviation
-Minimum
-Maximum
-First Quartile (Q1)
-Third Quartile (Q3)
-Interquartile Range (IQR)
+- Mean
+- Median
+- Standard Deviation
+- Minimum
+- Maximum
+- First Quartile (Q1)
+- Third Quartile (Q3)
+- Interquartile Range (IQR)
+
+---
+
 Outlier Detection
 
 Outliers are identified using:
@@ -129,124 +139,6 @@ Upper Bound = Q3 + 1.5 × IQR
 
 Scores outside these limits are flagged for review.
 
-Data Visualization
-1. Mathematics Score Distribution
-
-Chart Type: Histogram
-
-X-Axis: Math Score Intervals
-Y-Axis: Student Count
-
-Purpose:
-
-Understand distribution of mathematics scores.
-2. Reading Score Distribution
-
-Chart Type: Histogram
-
-X-Axis: Reading Score Intervals
-Y-Axis: Student Count
-
-Purpose:
-
-Analyze reading performance.
-3. Writing Score Distribution
-
-Chart Type: Histogram
-
-X-Axis: Writing Score Intervals
-Y-Axis: Student Count
-
-Purpose:
-
-Analyze writing performance.
-4. Subject Comparison Box Plot
-
-Chart Type: Box Plot
-
-X-Axis: Subject Name
-Y-Axis: Subject Score
-
-Purpose:
-
-Compare score distributions across all subjects.
-5. Mathematics Outlier Analysis
-
-Chart Type: Box Plot
-
-Purpose:
-
-Identify unusual mathematics scores.
-6. Reading Outlier Analysis
-
-Chart Type: Box Plot
-
-Purpose:
-
-Identify unusual reading scores.
-7. Writing Outlier Analysis
-
-Chart Type: Box Plot
-
-Purpose:
-
-Identify unusual writing scores.
-8. Total Score Distribution
-
-Chart Type: Histogram
-
-X-Axis: Total Score
-Y-Axis: Student Count
-
-Purpose:
-
-Understand overall academic performance.
-9. Average Score Distribution
-
-Chart Type: Histogram
-
-X-Axis: Average Score
-Y-Axis: Student Count
-
-Purpose:
-
-Analyze average student achievement.
-10. Pass/Fail Analysis
-
-Chart Type: Bar Chart
-
-X-Axis: Pass/Fail Status
-Y-Axis: Student Count
-
-Purpose:
-
-Compare passing and failing students.
-11. Performance Category Analysis
-
-Chart Type: Bar Chart
-
-X-Axis: Performance Category
-Y-Axis: Student Count
-
-Categories:
-
-High
-Average
-Low
-
-Purpose:
-
-Compare performance levels.
-12. Subject Mean Comparison
-
-Chart Type: Bar Chart
-
-X-Axis: Subject Name
-Y-Axis: Mean Score
-
-Purpose:
-
-Identify highest and lowest performing subjects.
 Data Validation
 
 The cleaned dataset undergoes the following validation checks:
