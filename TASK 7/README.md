@@ -25,16 +25,20 @@ By analyzing student demographics and examination scores, institutions can:
 
 ### Original Dataset Columns
 
-| Column | Description |
-gender	Gender of the student
-race/ethnicity	Ethnic group classification
-parental level of education	Parents' highest education level
-lunch	Lunch category
-test preparation course	Test preparation completion status
-math score	Mathematics score
-reading score	Reading score
-writing score	Writing score
-Feature Engineering
+| Column | Description |  
+|---------|-------------|
+| gender	| Gender of the student |
+| race/ethnicity | Ethnic group classification |
+| parental level of education	| Parents' highest education level |
+| lunch	| Lunch category |
+| test preparation course	| Test preparation completion status |
+| math score	| Mathematics score |
+| reading score	| Reading score |
+| writing score	| Writing score |
+
+---
+
+## Feature Engineering
 
 The following new features are created:
 
