@@ -59,9 +59,9 @@ DIVIDE(
 
 ## Dashboard Components
 
-1. KPI Cards
+### 1. KPI Cards
 
-The top section of the dashboard contains KPI cards displaying:
+#### The top section of the dashboard contains KPI cards displaying:
 
 - Total Patients
 - Average Billing Amount
@@ -70,34 +70,34 @@ The top section of the dashboard contains KPI cards displaying:
 
 These metrics provide an instant overview of healthcare performance.
 
-2. Patient Demographics Analysis
+### 2. Patient Demographics Analysis
 
-Visualizations used:
+#### Visualizations used:
 
 - Clustered Column Chart
 - Stacked Bar Chart
 - Pie Chart (Optional)
 
-Analysis includes:
+#### Analysis includes:
 
 - Patient distribution by Age Group
 - Patient distribution by Gender
 
-3. Matrix Table
+### 3. Matrix Table
 
-A matrix visualization is used to compare:
+#### A matrix visualization is used to compare:
 
 - Medical Conditions
 - Age Groups
 - Gender
 
-Metric displayed:
+#### Metric displayed:
 
 - Patient Count
 
 This allows easier comparison of disease prevalence across demographic groups.
 
-4. Donut Chart
+### 4. Donut Chart
 
 The Donut Chart displays patient distribution based on:
 
@@ -107,20 +107,20 @@ The Donut Chart displays patient distribution based on:
 
 The visualization highlights the proportion of each category.
 
-5. Admission Trend Analysis
+### 5. Admission Trend Analysis
 
-Trend visualizations include:
+#### Trend visualizations include:
 
 - Line Charts
 - Area Charts
 
-Metrics analyzed:
+#### Metrics analyzed:
 
 - Number of Admissions Over Time
 - Department-wise Admissions
 - Monthly or Yearly Trends
 
-6. Interactive Slicers
+### 6. Interactive Slicers
 
 The dashboard includes slicers for:
 
@@ -132,7 +132,7 @@ The dashboard includes slicers for:
 
 Users can dynamically filter dashboard visuals according to their requirements.
 
-7. Cross-Filtering Features
+### 7. Cross-Filtering Features
 
 Cross-filtering enables users to:
 
@@ -182,14 +182,14 @@ This improves dashboard interactivity and exploratory analysis.
 
 ## Features
 
-✅ Dynamic KPI Monitoring
- ✅ Interactive Slicers
- ✅ Cross-Filtering Support
- ✅ Demographic Analysis
- ✅ Admission Trend Analysis
- ✅ Billing Insights
- ✅ Medical Condition Comparison
- ✅ Professional Dashboard Design
+- ✅ Dynamic KPI Monitoring
+- ✅ Interactive Slicers
+- ✅ Cross-Filtering Support
+- ✅ Demographic Analysis
+- ✅ Admission Trend Analysis
+- ✅ Billing Insights
+- ✅ Medical Condition Comparison
+- ✅ Professional Dashboard Design
 
 ---
 
