@@ -45,16 +45,6 @@ Average Length of Stay =
 AVERAGE(Healthcare[Length of Stay])
 ```
 
-### Readmission Rate
-```
-Readmission Rate =
-DIVIDE(
-    CALCULATE(COUNTROWS(Healthcare),
-    Healthcare[Readmission] = "Yes"),
-    COUNTROWS(Healthcare)
-) * 100
-```
-
 ---
 
 ## Dashboard Components
@@ -190,12 +180,6 @@ This improves dashboard interactivity and exploratory analysis.
 - ✅ Billing Insights
 - ✅ Medical Condition Comparison
 - ✅ Professional Dashboard Design
-
----
-
-## Conclusion
-
-The Healthcare Analytics Dashboard provides a comprehensive view of hospital operations, patient demographics, billing trends, and healthcare outcomes. Through DAX calculations, interactive visualizations, and cross-filtering capabilities, the dashboard enables efficient analysis and supports informed healthcare decision-making.
 
 ---
 
