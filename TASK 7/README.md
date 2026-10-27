@@ -14,13 +14,19 @@ Educational institutions need to identify students who may be at academic risk a
 
 By analyzing student demographics and examination scores, institutions can:
 
-Monitor academic performance.
-Identify high-performing and low-performing students.
-Detect performance gaps across subjects.
-Support decision-making for academic improvement programs.
-Dataset Description
-Original Dataset Columns
-Column	Descriptiongender	Gender of the student
+- Monitor academic performance.
+- Identify high-performing and low-performing students.
+- Detect performance gaps across subjects.
+- Support decision-making for academic improvement programs.
+
+---
+
+## Dataset Description
+
+### Original Dataset Columns
+
+| Column | Description |
+gender	Gender of the student
 race/ethnicity	Ethnic group classification
 parental level of education	Parents' highest education level
 lunch	Lunch category
